@@ -342,7 +342,17 @@ client.on('message', async message =>{
 				.setTitle("ApexAPI DiscordBot")
 				.setAuthor("created by N8VENTURES")
 				.setColor(0x00AE86)
-				.setDescription(jsonstrng)
+				//.setDescription(jsonstrng)
+				.addFields(
+				placements.map(p => ({
+					name: p.teamName,
+					value: `Kills: ${p.kills}
+							Placement: ${p.teamPlacement}
+							Total Points: ${p.TotalPoints}`
+									})
+							)
+				
+				)
 				.setFooter("created by N8VENTURES")
 				.setTimestamp()
 			
