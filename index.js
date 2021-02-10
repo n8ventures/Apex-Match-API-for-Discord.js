@@ -24,13 +24,13 @@ client.on('message', async message =>{
 			break;
 			  	
 
-			case 'apex2':
+			case '.apex':
 			const StatToken2 = message.content.replace('apex2 ','');
 			const ApexAPI2 = 'https://r5-crossplay.r5prod.stryder.respawn.com/privatematch/?token='
 			const GrabAPI2 = ApexAPI2 + StatToken2
 			
 			
-			if (message.content === 'apex2'){
+			if (message.content === '.apex'){
 			message.channel.send(`${user}` +', please input Stat token!!!')
 			}
 			
