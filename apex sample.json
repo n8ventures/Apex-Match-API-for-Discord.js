@@ -1,0 +1,2384 @@
+{
+matches: [
+{
+match_start: 1612627346,
+player_results: [
+{
+kills: 0,
+survivalTime: 511,
+playerName: "3KG_Dangcom",
+teamNum: 3,
+damageDealt: 0,
+teamName: "3Kings",
+teamPlacement: 13,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 68,
+playerName: "ZnivoooO-FB",
+survivalTime: 166,
+teamNum: 16,
+teamName: "HTIM",
+teamPlacement: 19,
+assists: 0
+},
+{
+kills: 4,
+damageDealt: 1142,
+playerName: "LIM_Cracked-FB",
+survivalTime: 0,
+teamNum: 13,
+teamName: "Limitless Tempo",
+teamPlacement: 1,
+assists: 5
+},
+{
+kills: 3,
+survivalTime: 790,
+playerName: "DxB-TalkDerpy",
+teamPlacement: 12,
+damageDealt: 712,
+teamName: "Daruma Simp",
+teamNum: 9,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 12,
+playerName: "HTIM-Amashiro",
+survivalTime: 157,
+teamNum: 16,
+teamName: "HTIM",
+teamPlacement: 19,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 218,
+playerName: "DxB-Shouganai",
+teamPlacement: 12,
+survivalTime: 804,
+teamName: "Daruma Simp",
+teamNum: 9,
+assists: 3
+},
+{
+kills: 4,
+damageDealt: 899,
+playerName: "LIM_Sintelle",
+teamNum: 13,
+survivalTime: 0,
+teamName: "Limitless Tempo",
+teamPlacement: 1,
+assists: 3
+},
+{
+kills: 2,
+damageDealt: 444,
+playerName: "BookerTix",
+teamNum: 6,
+survivalTime: 315,
+teamName: "Big Duck Energy",
+teamPlacement: 15,
+assists: 0
+},
+{
+kills: 2,
+survivalTime: 1067,
+playerName: "DFT-RonMctavish",
+teamNum: 10,
+damageDealt: 615,
+teamName: "DFT Reapers",
+teamPlacement: 8,
+assists: 1
+},
+{
+kills: 1,
+survivalTime: 201,
+playerName: "AA-Dark-GNCD",
+teamNum: 4,
+damageDealt: 474,
+teamName: "AimAssist",
+teamPlacement: 16,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 168,
+playerName: "WAR_GulayGabs",
+teamPlacement: 10,
+survivalTime: 198,
+teamName: "WAR Sigma",
+teamNum: 20,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 1060,
+playerName: "WAR_xPanda",
+damageDealt: 290,
+teamPlacement: 10,
+teamName: "WAR Sigma",
+teamNum: 20,
+assists: 0
+},
+{
+kills: 1,
+survivalTime: 306,
+playerName: "bun invasion",
+teamNum: 6,
+damageDealt: 351,
+teamName: "Big Duck Energy",
+teamPlacement: 15,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 91,
+playerName: "fb-vernst2.0",
+damageDealt: 172,
+teamNum: 17,
+teamName: "TheTiltSquad",
+teamPlacement: 20,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 1062,
+playerName: "Jaspo",
+teamPlacement: 9,
+damageDealt: 134,
+teamName: "BadSaint",
+teamNum: 5,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 125,
+playerName: "WRATH_Wratheus",
+teamNum: 21,
+survivalTime: 549,
+teamName: "Wrath Esports",
+teamPlacement: 14,
+assists: 0
+},
+{
+kills: 3,
+damageDealt: 576,
+playerName: "DFT-CJ",
+survivalTime: 743,
+teamNum: 10,
+teamName: "DFT Reapers",
+teamPlacement: 8,
+assists: 1
+},
+{
+kills: 0,
+survivalTime: 230,
+playerName: "AA-Xaveyy-MYM",
+teamNum: 4,
+damageDealt: 145,
+teamName: "AimAssist",
+teamPlacement: 16,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 0,
+playerName: "EngrPrime",
+teamPlacement: 7,
+survivalTime: 304,
+teamName: "Charge",
+teamNum: 7,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 90,
+playerName: "OG_Wissu",
+survivalTime: 227,
+teamNum: 14,
+teamName: "OG Cyan",
+teamPlacement: 17,
+assists: 0
+},
+{
+kills: 1,
+damageDealt: 305,
+playerName: "IGx-Roid",
+teamNum: 11,
+survivalTime: 587,
+teamName: "IGx ILAM",
+teamPlacement: 6,
+assists: 0
+},
+{
+kills: 4,
+survivalTime: 1219,
+playerName: "V1-myAntu",
+teamNum: 18,
+damageDealt: 1338,
+teamName: "Version 1",
+teamPlacement: 2,
+assists: 2
+},
+{
+kills: 0,
+survivalTime: 550,
+playerName: "WRATH_Atomic",
+damageDealt: 107,
+teamNum: 21,
+teamName: "Wrath Esports",
+teamPlacement: 14,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 34,
+playerName: "OG_MCDJKing",
+teamNum: 14,
+survivalTime: 227,
+teamName: "OG Cyan",
+teamPlacement: 17,
+assists: 0
+},
+{
+kills: 2,
+survivalTime: 1220,
+playerName: "V1-LiLmimzy",
+damageDealt: 777,
+teamPlacement: 2,
+teamName: "Version 1",
+teamNum: 18,
+assists: 2
+},
+{
+kills: 3,
+survivalTime: 1176,
+playerName: "Bidam-IGx",
+damageDealt: 727,
+teamPlacement: 6,
+teamName: "IGx ILAM",
+teamNum: 11,
+assists: 1
+},
+{
+kills: 0,
+survivalTime: 1189,
+playerName: "eHakuu",
+damageDealt: 72,
+teamNum: 15,
+teamName: "Team7",
+teamPlacement: 4,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 189,
+playerName: "WRATH_Atomic",
+teamNum: 21,
+survivalTime: 790,
+teamName: "Wrath Esports",
+teamPlacement: 14,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 204,
+playerName: "WRATH Ashura",
+damageDealt: 25,
+teamNum: 21,
+teamName: "Wrath Esports",
+teamPlacement: 14,
+assists: 0
+},
+{
+kills: 2,
+damageDealt: 282,
+playerName: "WRATH_Wratheus",
+teamPlacement: 14,
+survivalTime: 783,
+teamName: "Wrath Esports",
+teamNum: 21,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 1062,
+playerName: "PAPI",
+damageDealt: 402,
+teamPlacement: 9,
+teamName: "BadSaint",
+teamNum: 5,
+assists: 0
+},
+{
+kills: 1,
+survivalTime: 566,
+playerName: "IGx-DobbySan",
+damageDealt: 555,
+teamPlacement: 6,
+teamName: "IGx ILAM",
+teamNum: 11,
+assists: 2
+},
+{
+kills: 3,
+damageDealt: 882,
+playerName: "V1-Aikyu",
+survivalTime: 1219,
+teamNum: 18,
+teamName: "Version 1",
+teamPlacement: 2,
+assists: 2
+},
+{
+kills: 1,
+damageDealt: 510,
+playerName: "YnigoDominguez",
+survivalTime: 1188,
+teamNum: 15,
+teamName: "Team7",
+teamPlacement: 4,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 706,
+playerName: "WRATH Ashura",
+survivalTime: 789,
+teamNum: 21,
+teamName: "Wrath Esports",
+teamPlacement: 14,
+assists: 2
+},
+{
+kills: 5,
+survivalTime: 230,
+playerName: "AA-Lawrence-SMPH",
+teamPlacement: 16,
+damageDealt: 708,
+teamName: "AimAssist",
+teamNum: 4,
+assists: 1
+},
+{
+kills: 0,
+survivalTime: 1211,
+playerName: "EXE_AlyasPogi",
+damageDealt: 464,
+teamNum: 12,
+teamName: "IGx Gobilamers",
+teamPlacement: 3,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 0,
+playerName: "GDAssassin",
+survivalTime: 1072,
+teamNum: 7,
+teamName: "Charge",
+teamPlacement: 7,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 308,
+playerName: "WAR_xRhythm",
+teamNum: 19,
+survivalTime: 1185,
+teamName: "WAR Omega",
+teamPlacement: 5,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 90,
+playerName: "DxB-JecOnyx",
+teamPlacement: 18,
+survivalTime: 207,
+teamName: "Daruma Boys",
+teamNum: 8,
+assists: 1
+},
+{
+kills: 1,
+damageDealt: 523,
+playerName: "IGx-KSavage_FB",
+teamPlacement: 3,
+survivalTime: 1211,
+teamName: "IGx Gobilamers",
+teamNum: 12,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 817,
+playerName: "CULT-FastZeez",
+teamPlacement: 11,
+damageDealt: 863,
+teamName: "3Dudes",
+teamNum: 2,
+assists: 2
+},
+{
+kills: 2,
+damageDealt: 726,
+playerName: "CULT-IIVATOR",
+teamNum: 2,
+survivalTime: 961,
+teamName: "3Dudes",
+teamPlacement: 11,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 245,
+playerName: "<DxB> KhillMoreTV",
+teamNum: 8,
+survivalTime: 193,
+teamName: "Daruma Boys",
+teamPlacement: 18,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 252,
+playerName: "AkkiFB",
+teamNum: 15,
+survivalTime: 1189,
+teamName: "Team7",
+teamPlacement: 4,
+assists: 1
+},
+{
+kills: 1,
+survivalTime: 208,
+playerName: "DxB-23Tikss",
+damageDealt: 166,
+teamNum: 8,
+teamName: "Daruma Boys",
+teamPlacement: 18,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 1183,
+playerName: "WAR_magsasaka",
+teamNum: 19,
+damageDealt: 240,
+teamName: "WAR Omega",
+teamPlacement: 5,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 473,
+playerName: "Yamotsu",
+teamPlacement: 15,
+survivalTime: 305,
+teamName: "Big Duck Energy",
+teamNum: 6,
+assists: 2
+},
+{
+kills: 0,
+survivalTime: 1072,
+playerName: "hanaciel",
+teamNum: 7,
+damageDealt: 15,
+teamName: "Charge",
+teamPlacement: 7,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 1060,
+playerName: "WAR_EmberTTV",
+damageDealt: 35,
+teamNum: 19,
+teamName: "WAR Omega",
+teamPlacement: 5,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 0,
+playerName: "TrippyTrippy-FB",
+survivalTime: 77,
+teamPlacement: 20,
+teamName: "TheTiltSquad",
+teamNum: 17,
+assists: 0
+},
+{
+kills: 1,
+survivalTime: 1062,
+playerName: "GHOSTRIDEMIKO",
+teamPlacement: 9,
+damageDealt: 558,
+teamName: "BadSaint",
+teamNum: 5,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 587,
+playerName: "3KG_JCiMA",
+damageDealt: 83,
+teamNum: 3,
+teamName: "3Kings",
+teamPlacement: 13,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 587,
+playerName: "3KG_BossReeey",
+damageDealt: 118,
+teamPlacement: 13,
+teamName: "3Kings",
+teamNum: 3,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 54,
+playerName: "WAR_KobexTokyo",
+teamPlacement: 10,
+survivalTime: 95,
+teamName: "WAR Sigma",
+teamNum: 20,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 353,
+playerName: "IGx-Caz",
+survivalTime: 1210,
+teamNum: 12,
+teamName: "IGx Gobilamers",
+teamPlacement: 3,
+assists: 1
+},
+{
+kills: 0,
+survivalTime: 227,
+playerName: "OG_Koi.",
+damageDealt: 138,
+teamNum: 14,
+teamName: "OG Cyan",
+teamPlacement: 17,
+assists: 0
+},
+{
+kills: 5,
+survivalTime: 0,
+playerName: "LIM_KnrtJM",
+damageDealt: 1351,
+teamNum: 13,
+teamName: "Limitless Tempo",
+teamPlacement: 1,
+assists: 4
+},
+{
+kills: 0,
+survivalTime: 796,
+playerName: "DxB-GiggelsFBTV",
+teamNum: 9,
+damageDealt: 124,
+teamName: "Daruma Simp",
+teamPlacement: 12,
+assists: 1
+}
+]
+},
+{
+match_start: 1612625092,
+player_results: [
+{
+kills: 0,
+damageDealt: 0,
+playerName: "3KG_Dangcom",
+teamPlacement: 13,
+survivalTime: 69,
+teamName: "3Kings",
+teamNum: 3,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 139,
+playerName: "eHakuu",
+teamNum: 15,
+damageDealt: 97,
+teamName: "Team7",
+teamPlacement: 20,
+assists: 0
+},
+{
+kills: 4,
+survivalTime: 1183,
+playerName: "IGx-Caz",
+teamPlacement: 8,
+damageDealt: 731,
+teamName: "IGx Gobilamers",
+teamNum: 12,
+assists: 3
+},
+{
+kills: 1,
+damageDealt: 352,
+playerName: "DxB-GiggelsFBTV",
+survivalTime: 1188,
+teamNum: 9,
+teamName: "Daruma Simp",
+teamPlacement: 4,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 78,
+playerName: "AkkiFB",
+survivalTime: 139,
+teamNum: 15,
+teamName: "Team7",
+teamPlacement: 20,
+assists: 0
+},
+{
+kills: 1,
+damageDealt: 851,
+playerName: "DxB-TalkDerpy",
+teamNum: 9,
+survivalTime: 1313,
+teamName: "Daruma Simp",
+teamPlacement: 4,
+assists: 1
+},
+{
+kills: 4,
+damageDealt: 654,
+playerName: "IGx-KSavage_FB",
+teamNum: 12,
+survivalTime: 1166,
+teamName: "IGx Gobilamers",
+teamPlacement: 8,
+assists: 0
+},
+{
+kills: 1,
+damageDealt: 1401,
+playerName: "GHOSTRIDEMIKO",
+teamPlacement: 6,
+survivalTime: 1236,
+teamName: "BadSaint",
+teamNum: 5,
+assists: 2
+},
+{
+kills: 2,
+damageDealt: 1391,
+playerName: "BookerTix",
+teamPlacement: 1,
+survivalTime: 0,
+teamName: "Big Duck Energy",
+teamNum: 6,
+assists: 4
+},
+{
+kills: 2,
+survivalTime: 444,
+playerName: "AA-Lawrence-SMPH",
+damageDealt: 304,
+teamPlacement: 12,
+teamName: "AimAssist",
+teamNum: 4,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 0,
+playerName: "WAR_magsasaka",
+teamPlacement: 16,
+survivalTime: 668,
+teamName: "WAR Omega",
+teamNum: 19,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 664,
+playerName: "WAR_xRhythm",
+damageDealt: 52,
+teamPlacement: 16,
+teamName: "WAR Omega",
+teamNum: 19,
+assists: 0
+},
+{
+kills: 2,
+survivalTime: 0,
+playerName: "Yamotsu",
+damageDealt: 557,
+teamNum: 6,
+teamName: "Big Duck Energy",
+teamPlacement: 1,
+assists: 2
+},
+{
+kills: 3,
+survivalTime: 0,
+playerName: "bun invasion",
+teamPlacement: 1,
+damageDealt: 832,
+teamName: "Big Duck Energy",
+teamNum: 6,
+assists: 3
+},
+{
+kills: 0,
+survivalTime: 760,
+playerName: "LIM_Cracked-FB",
+teamNum: 13,
+damageDealt: 82,
+teamName: "Limitless Tempo",
+teamPlacement: 10,
+assists: 0
+},
+{
+kills: 2,
+damageDealt: 465,
+playerName: "WAR_KobexTokyo",
+teamNum: 20,
+survivalTime: 1363,
+teamName: "WAR Sigma",
+teamPlacement: 2,
+assists: 0
+},
+{
+kills: 1,
+survivalTime: 753,
+playerName: "DFT-CJ",
+damageDealt: 291,
+teamNum: 10,
+teamName: "DFT Reapers",
+teamPlacement: 15,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 407,
+playerName: "hanaciel",
+teamNum: 7,
+damageDealt: 207,
+teamName: "Charge",
+teamPlacement: 17,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 418,
+playerName: "GDAssassin",
+damageDealt: 208,
+teamPlacement: 17,
+teamName: "Charge",
+teamNum: 7,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 618,
+playerName: "LIM_KnrtJM",
+damageDealt: 128,
+teamNum: 13,
+teamName: "Limitless Tempo",
+teamPlacement: 10,
+assists: 0
+},
+{
+kills: 1,
+damageDealt: 370,
+playerName: "DFT-RonMctavish",
+survivalTime: 750,
+teamNum: 10,
+teamName: "DFT Reapers",
+teamPlacement: 15,
+assists: 1
+},
+{
+kills: 2,
+survivalTime: 1183,
+playerName: "TrippyTrippy-FB",
+damageDealt: 635,
+teamPlacement: 7,
+teamName: "TheTiltSquad",
+teamNum: 17,
+assists: 2
+},
+{
+kills: 0,
+survivalTime: 668,
+playerName: "DFT-Gdree",
+teamPlacement: 15,
+damageDealt: 20,
+teamName: "DFT Reapers",
+teamNum: 10,
+assists: 0
+},
+{
+kills: 7,
+survivalTime: 1360,
+playerName: "V1-LiLmimzy",
+teamNum: 18,
+damageDealt: 2898,
+teamName: "Version1",
+teamPlacement: 3,
+assists: 2
+},
+{
+kills: 0,
+survivalTime: 258,
+playerName: "ZnivoooO-FB",
+damageDealt: 0,
+teamNum: 16,
+teamName: "HTIM",
+teamPlacement: 19,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 226,
+playerName: "IGx-Roid",
+survivalTime: 326,
+teamNum: 11,
+teamName: "IGx ILAM",
+teamPlacement: 18,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 115,
+playerName: "3KG_BossReeey",
+damageDealt: 113,
+teamNum: 3,
+teamName: "3Kings",
+teamPlacement: 13,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 189,
+playerName: "WRATH_Atomic",
+teamNum: 21,
+survivalTime: 790,
+teamName: "Wrath Esports",
+teamPlacement: 14,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 202,
+playerName: "WAR_GulayGabs",
+teamPlacement: 2,
+damageDealt: 0,
+teamName: "WAR Sigma",
+teamNum: 20,
+assists: 0
+},
+{
+kills: 2,
+damageDealt: 282,
+playerName: "WRATH_Wratheus",
+survivalTime: 783,
+teamPlacement: 14,
+teamName: "Wrath Esports",
+teamNum: 21,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 168,
+playerName: "HTIM-Amashiro",
+teamPlacement: 19,
+survivalTime: 258,
+teamName: "HTIM",
+teamNum: 16,
+assists: 0
+},
+{
+kills: 2,
+survivalTime: 1166,
+playerName: "DxB-JecOnyx",
+teamNum: 8,
+damageDealt: 286,
+teamName: "Daruma Boys",
+teamPlacement: 9,
+assists: 0
+},
+{
+kills: 1,
+damageDealt: 202,
+playerName: "fb-vernst2.0",
+teamPlacement: 7,
+survivalTime: 1183,
+teamName: "TheTiltSquad",
+teamNum: 17,
+assists: 2
+},
+{
+kills: 0,
+survivalTime: 754,
+playerName: "OG_Koi.",
+teamPlacement: 11,
+damageDealt: 197,
+teamName: "OG Cyan",
+teamNum: 14,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 789,
+playerName: "WRATH Ashura",
+teamNum: 21,
+damageDealt: 706,
+teamName: "Wrath Esports",
+teamPlacement: 14,
+assists: 2
+},
+{
+kills: 0,
+survivalTime: 1030,
+playerName: "OG_MCDJKing",
+teamNum: 14,
+damageDealt: 165,
+teamName: "OG Cyan",
+teamPlacement: 11,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 326,
+playerName: "IGx-DobbySan",
+damageDealt: 124,
+teamNum: 11,
+teamName: "IGx ILAM",
+teamPlacement: 18,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 225,
+playerName: "LIM_Sintelle",
+survivalTime: 1162,
+teamPlacement: 10,
+teamName: "Limitless Tempo",
+teamNum: 13,
+assists: 0
+},
+{
+kills: 2,
+survivalTime: 1182,
+playerName: "V1-Aikyu",
+teamNum: 18,
+damageDealt: 1447,
+teamName: "Version1",
+teamPlacement: 3,
+assists: 3
+},
+{
+kills: 0,
+damageDealt: 18,
+playerName: "YnigoDominguez",
+teamNum: 15,
+survivalTime: 139,
+teamName: "Team7",
+teamPlacement: 20,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 274,
+playerName: "Bidam-IGx",
+survivalTime: 326,
+teamPlacement: 18,
+teamName: "IGx ILAM",
+teamNum: 11,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 439,
+playerName: "EngrPrime",
+damageDealt: 102,
+teamPlacement: 17,
+teamName: "Charge",
+teamNum: 7,
+assists: 0
+},
+{
+kills: 2,
+damageDealt: 1349,
+playerName: "CULT-IIVATOR",
+teamNum: 2,
+survivalTime: 1305,
+teamName: "3Dudes",
+teamPlacement: 5,
+assists: 2
+},
+{
+kills: 1,
+damageDealt: 719,
+playerName: "EXE_AlyasPogi",
+survivalTime: 1167,
+teamNum: 12,
+teamName: "IGx Gobilamers",
+teamPlacement: 8,
+assists: 6
+},
+{
+kills: 1,
+damageDealt: 423,
+playerName: "OG_t4n",
+survivalTime: 1183,
+teamPlacement: 7,
+teamName: "TheTiltSquad",
+teamNum: 17,
+assists: 2
+},
+{
+kills: 3,
+survivalTime: 920,
+playerName: "CULT-FastZeez",
+teamNum: 2,
+damageDealt: 852,
+teamName: "3Dudes",
+teamPlacement: 5,
+assists: 0
+},
+{
+kills: 2,
+damageDealt: 593,
+playerName: "PAPI",
+survivalTime: 1237,
+teamNum: 5,
+teamName: "BadSaint",
+teamPlacement: 6,
+assists: 0
+},
+{
+kills: 1,
+damageDealt: 179,
+playerName: "DxB-Shouganai",
+survivalTime: 1265,
+teamPlacement: 4,
+teamName: "Daruma Simp",
+teamNum: 9,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 1149,
+playerName: "OG_Wissu",
+teamPlacement: 11,
+damageDealt: 408,
+teamName: "OG Cyan",
+teamNum: 14,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 450,
+playerName: "AA-Dark-GNCD",
+teamPlacement: 12,
+damageDealt: 86,
+teamName: "AimAssist",
+teamNum: 4,
+assists: 2
+},
+{
+kills: 0,
+damageDealt: 769,
+playerName: "<DxB> KhillMoreTV",
+teamPlacement: 9,
+survivalTime: 1174,
+teamName: "Daruma Boys",
+teamNum: 8,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 20,
+playerName: "WAR_xPanda",
+teamNum: 20,
+survivalTime: 365,
+teamName: "WAR Sigma",
+teamPlacement: 2,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 716,
+playerName: "WAR_EmberTTV",
+teamPlacement: 16,
+damageDealt: 0,
+teamName: "WAR Omega",
+teamNum: 19,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 88,
+playerName: "3KG_JCiMA",
+survivalTime: 813,
+teamPlacement: 13,
+teamName: "3Kings",
+teamNum: 3,
+assists: 0
+},
+{
+kills: 2,
+survivalTime: 1173,
+playerName: "V1-myAntu",
+damageDealt: 1118,
+teamNum: 18,
+teamName: "Version1",
+teamPlacement: 3,
+assists: 4
+},
+{
+kills: 2,
+survivalTime: 916,
+playerName: "xKoala-lumpur",
+damageDealt: 848,
+teamNum: 2,
+teamName: "3Dudes",
+teamPlacement: 5,
+assists: 2
+},
+{
+kills: 1,
+damageDealt: 961,
+playerName: "Jaspo",
+teamPlacement: 6,
+survivalTime: 1236,
+teamName: "BadSaint",
+teamNum: 5,
+assists: 3
+},
+{
+kills: 1,
+survivalTime: 965,
+playerName: "AA-Xaveyy-MYM",
+teamPlacement: 12,
+damageDealt: 257,
+teamName: "AimAssist",
+teamNum: 4,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 1167,
+playerName: "DxB-23Tikss",
+damageDealt: 180,
+teamPlacement: 9,
+teamName: "Daruma Boys",
+teamNum: 8,
+assists: 1
+}
+]
+},
+{
+match_start: 1612622787,
+player_results: [
+{
+kills: 0,
+damageDealt: 9,
+playerName: "3KG_Dangcom",
+teamNum: 3,
+survivalTime: 961,
+teamName: "3kings",
+teamPlacement: 5,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 706,
+playerName: "eHakuu",
+teamNum: 15,
+damageDealt: 0,
+teamName: "Team7",
+teamPlacement: 14,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 909,
+playerName: "IGx-KSavage_FB",
+damageDealt: 535,
+teamPlacement: 8,
+teamName: "IGx Gobilamers",
+teamNum: 12,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 494,
+playerName: "AA-Dark-GNCD",
+survivalTime: 1062,
+teamPlacement: 6,
+teamName: "aimassist",
+teamNum: 4,
+assists: 2
+},
+{
+kills: 0,
+damageDealt: 460,
+playerName: "HTIM-Amashiro",
+survivalTime: 844,
+teamNum: 16,
+teamName: "HTIM",
+teamPlacement: 9,
+assists: 2
+},
+{
+kills: 0,
+survivalTime: 368,
+playerName: "WAR_EmberTTV",
+damageDealt: 36,
+teamNum: 19,
+teamName: "WAR Omega",
+teamPlacement: 17,
+assists: 2
+},
+{
+kills: 3,
+survivalTime: 1028,
+playerName: "LIM_KnrtJM",
+teamNum: 13,
+damageDealt: 1434,
+teamName: "Limitless Tempo",
+teamPlacement: 7,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 353,
+playerName: "Yamotsu",
+teamNum: 6,
+survivalTime: 317,
+teamName: "Big Duck Energy",
+teamPlacement: 20,
+assists: 0
+},
+{
+kills: 2,
+damageDealt: 1750,
+playerName: "DFT-CJ",
+survivalTime: 1314,
+teamNum: 10,
+teamName: "DFT Reapers",
+teamPlacement: 3,
+assists: 3
+},
+{
+kills: 0,
+survivalTime: 1063,
+playerName: "AA-Lawrence-SMPH",
+damageDealt: 291,
+teamPlacement: 6,
+teamName: "aimassist",
+teamNum: 4,
+assists: 2
+},
+{
+kills: 2,
+damageDealt: 317,
+playerName: "WAR_xRhythm",
+teamNum: 19,
+survivalTime: 369,
+teamName: "WAR Omega",
+teamPlacement: 17,
+assists: 1
+},
+{
+kills: 1,
+damageDealt: 24,
+playerName: "WAR-luvs1c",
+teamPlacement: 17,
+survivalTime: 369,
+teamName: "WAR Omega",
+teamNum: 19,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 350,
+playerName: "bun invasion",
+survivalTime: 312,
+teamNum: 6,
+teamName: "Big Duck Energy",
+teamPlacement: 20,
+assists: 0
+},
+{
+kills: 2,
+survivalTime: 838,
+playerName: "KENSHMOi-Ttv",
+teamPlacement: 9,
+damageDealt: 696,
+teamName: "HTIM",
+teamNum: 16,
+assists: 0
+},
+{
+kills: 2,
+survivalTime: 1025,
+playerName: "LIM_Sintelle",
+teamNum: 13,
+damageDealt: 941,
+teamName: "Limitless Tempo",
+teamPlacement: 7,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 0,
+playerName: "WAR_KobexTokyo",
+survivalTime: 496,
+teamNum: 20,
+teamName: "WAR Sigma",
+teamPlacement: 16,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 448,
+playerName: "GHOSTRIDEMIKO",
+teamNum: 5,
+survivalTime: 801,
+teamName: "badsaint",
+teamPlacement: 11,
+assists: 1
+},
+{
+kills: 0,
+survivalTime: 363,
+playerName: "hanaciel",
+damageDealt: 88,
+teamPlacement: 18,
+teamName: "Charge",
+teamNum: 7,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 250,
+playerName: "GDAssassin",
+survivalTime: 362,
+teamPlacement: 18,
+teamName: "Charge",
+teamNum: 7,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 308,
+playerName: "OG_MCDJKing",
+teamPlacement: 19,
+damageDealt: 392,
+teamName: "OG Cyan",
+teamNum: 14,
+assists: 0
+},
+{
+kills: 4,
+damageDealt: 1661,
+playerName: "DFT-Gdree",
+survivalTime: 1315,
+teamNum: 10,
+teamName: "DFT Reapers",
+teamPlacement: 3,
+assists: 6
+},
+{
+kills: 0,
+survivalTime: 790,
+playerName: "OG_t4n",
+teamNum: 17,
+damageDealt: 192,
+teamName: "TheTiltSquad",
+teamPlacement: 12,
+assists: 0
+},
+{
+kills: 2,
+damageDealt: 769,
+playerName: "IGx-Roid",
+survivalTime: 1323,
+teamNum: 11,
+teamName: "IGx ILAM",
+teamPlacement: 2,
+assists: 2
+},
+{
+kills: 0,
+survivalTime: 355,
+playerName: "OG_Koi.",
+teamNum: 14,
+damageDealt: 680,
+teamName: "OG Cyan",
+teamPlacement: 19,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 38,
+playerName: "PAPI",
+survivalTime: 786,
+teamNum: 5,
+teamName: "badsaint",
+teamPlacement: 11,
+assists: 0
+},
+{
+kills: 2,
+damageDealt: 1826,
+playerName: "Bidam-IGx",
+teamPlacement: 2,
+survivalTime: 1322,
+teamName: "IGx ILAM",
+teamNum: 11,
+assists: 3
+},
+{
+kills: 2,
+survivalTime: 1062,
+playerName: "AA-Xaveyy-MYM",
+teamPlacement: 6,
+damageDealt: 918,
+teamName: "aimassist",
+teamNum: 4,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 322,
+playerName: "WRATH Ashura",
+survivalTime: 713,
+teamPlacement: 15,
+teamName: "Wrath Esports",
+teamNum: 21,
+assists: 2
+},
+{
+kills: 0,
+damageDealt: 0,
+playerName: "WAR_xPanda",
+survivalTime: 496,
+teamPlacement: 16,
+teamName: "WAR Sigma",
+teamNum: 20,
+assists: 0
+},
+{
+kills: 1,
+damageDealt: 351,
+playerName: "WRATH_Wratheus",
+survivalTime: 713,
+teamPlacement: 15,
+teamName: "Wrath Esports",
+teamNum: 21,
+assists: 1
+},
+{
+kills: 2,
+damageDealt: 254,
+playerName: "TrippyTrippy-FB",
+teamPlacement: 12,
+survivalTime: 790,
+teamName: "TheTiltSquad",
+teamNum: 17,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 0,
+playerName: "DxB-Shouganai",
+survivalTime: 788,
+teamPlacement: 10,
+teamName: "Daruma Simp",
+teamNum: 9,
+assists: 0
+},
+{
+kills: 1,
+survivalTime: 844,
+playerName: "ZnivoooO-FB",
+damageDealt: 947,
+teamPlacement: 9,
+teamName: "HTIM",
+teamNum: 16,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 100,
+playerName: "AkkiFB",
+survivalTime: 728,
+teamNum: 15,
+teamName: "Team7",
+teamPlacement: 14,
+assists: 0
+},
+{
+kills: 1,
+damageDealt: 344,
+playerName: "WRATH_Atomic",
+teamNum: 21,
+survivalTime: 713,
+teamName: "Wrath Esports",
+teamPlacement: 15,
+assists: 1
+},
+{
+kills: 0,
+survivalTime: 295,
+playerName: "BookerTix",
+teamNum: 6,
+damageDealt: 140,
+teamName: "Big Duck Energy",
+teamPlacement: 20,
+assists: 0
+},
+{
+kills: 2,
+damageDealt: 692,
+playerName: "IGx-DobbySan",
+teamPlacement: 2,
+survivalTime: 1323,
+teamName: "IGx ILAM",
+teamNum: 11,
+assists: 1
+},
+{
+kills: 4,
+survivalTime: 0,
+playerName: "V1-Aikyu",
+teamNum: 18,
+damageDealt: 1737,
+teamName: "Version1",
+teamPlacement: 1,
+assists: 6
+},
+{
+kills: 4,
+damageDealt: 1300,
+playerName: "V1-LiLmimzy",
+teamPlacement: 1,
+survivalTime: 0,
+teamName: "Version1",
+teamNum: 18,
+assists: 4
+},
+{
+kills: 0,
+survivalTime: 867,
+playerName: "DxB-JecOnyx",
+teamNum: 8,
+damageDealt: 83,
+teamName: "Daruma Boys",
+teamPlacement: 4,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 709,
+playerName: "EXE_AlyasPogi",
+survivalTime: 909,
+teamNum: 12,
+teamName: "IGx Gobilamers",
+teamPlacement: 8,
+assists: 2
+},
+{
+kills: 0,
+survivalTime: 1180,
+playerName: "<DxB> KhillMoreTV",
+teamNum: 8,
+damageDealt: 224,
+teamName: "Daruma Boys",
+teamPlacement: 4,
+assists: 0
+},
+{
+kills: 1,
+survivalTime: 743,
+playerName: "CULT-IIVATOR",
+damageDealt: 218,
+teamPlacement: 13,
+teamName: "3dudes",
+teamNum: 2,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 73,
+playerName: "EngrPrime",
+teamNum: 7,
+survivalTime: 337,
+teamName: "Charge",
+teamPlacement: 18,
+assists: 0
+},
+{
+kills: 4,
+survivalTime: 1315,
+playerName: "DFT-RonMctavish",
+damageDealt: 1225,
+teamNum: 10,
+teamName: "DFT Reapers",
+teamPlacement: 3,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 1035,
+playerName: "DxB-23Tikss",
+teamPlacement: 4,
+survivalTime: 1180,
+teamName: "Daruma Boys",
+teamNum: 8,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 153,
+playerName: "CULT-FastZeez",
+teamNum: 2,
+survivalTime: 677,
+teamName: "3dudes",
+teamPlacement: 13,
+assists: 0
+},
+{
+kills: 8,
+survivalTime: 0,
+playerName: "V1-myAntu",
+damageDealt: 1566,
+teamPlacement: 1,
+teamName: "Version1",
+teamNum: 18,
+assists: 5
+},
+{
+kills: 3,
+survivalTime: 1028,
+playerName: "LIM_Cracked-FB",
+damageDealt: 1097,
+teamNum: 13,
+teamName: "Limitless Tempo",
+teamPlacement: 7,
+assists: 1
+},
+{
+kills: 1,
+damageDealt: 181,
+playerName: "Jaspo",
+teamNum: 5,
+survivalTime: 801,
+teamName: "badsaint",
+teamPlacement: 11,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 260,
+playerName: "DxB-GiggelsFBTV",
+teamNum: 9,
+survivalTime: 805,
+teamName: "Daruma Simp",
+teamPlacement: 10,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 192,
+playerName: "OG_Wissu",
+teamPlacement: 19,
+survivalTime: 355,
+teamName: "OG Cyan",
+teamNum: 14,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 0,
+playerName: "WAR_GulayGabs",
+survivalTime: 347,
+teamNum: 20,
+teamName: "WAR Sigma",
+teamPlacement: 16,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 47,
+playerName: "3KG_BossReeey",
+survivalTime: 1111,
+teamNum: 3,
+teamName: "3kings",
+teamPlacement: 5,
+assists: 0
+},
+{
+kills: 1,
+survivalTime: 744,
+playerName: "xKoala-lumpur",
+damageDealt: 554,
+teamNum: 2,
+teamName: "3dudes",
+teamPlacement: 13,
+assists: 0
+},
+{
+kills: 3,
+damageDealt: 1011,
+playerName: "IGx-Caz",
+teamPlacement: 8,
+survivalTime: 908,
+teamName: "IGx Gobilamers",
+teamNum: 12,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 80,
+playerName: "fb-vernst2.0",
+teamNum: 17,
+survivalTime: 197,
+teamName: "TheTiltSquad",
+teamPlacement: 12,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 56,
+playerName: "YnigoDominguez",
+teamNum: 15,
+survivalTime: 729,
+teamName: "Team7",
+teamPlacement: 14,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 187,
+playerName: "DxB-TalkDerpy",
+survivalTime: 735,
+teamNum: 9,
+teamName: "Daruma Simp",
+teamPlacement: 10,
+assists: 0
+}
+]
+},
+{
+match_start: 1612620346,
+player_results: [
+{
+kills: 0,
+damageDealt: 52,
+playerName: "3KG_BossReeey",
+teamPlacement: 18,
+survivalTime: 224,
+teamName: "3Kings",
+teamNum: 3,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 50,
+playerName: "AkkiFB",
+survivalTime: 598,
+teamPlacement: 14,
+teamName: "Team7",
+teamNum: 15,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 1192,
+playerName: "PAPI",
+damageDealt: 298,
+teamNum: 5,
+teamName: "BadSaint",
+teamPlacement: 4,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 317,
+playerName: "DxB-TalkDerpy",
+survivalTime: 281,
+teamPlacement: 17,
+teamName: "Daruma Simp",
+teamNum: 9,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 255,
+playerName: "HTIM-Amashiro",
+survivalTime: 1126,
+teamNum: 16,
+teamName: "HTIM",
+teamPlacement: 6,
+assists: 2
+},
+{
+kills: 0,
+survivalTime: 282,
+playerName: "DxB-Shouganai",
+damageDealt: 60,
+teamPlacement: 17,
+teamName: "Daruma Simp",
+teamNum: 9,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 427,
+playerName: "LIM_Cracked-FB",
+survivalTime: 1360,
+teamNum: 13,
+teamName: "Limitless Tempo",
+teamPlacement: 3,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 295,
+playerName: "BookerTix",
+teamNum: 6,
+survivalTime: 873,
+teamName: "Big Duck Energy",
+teamPlacement: 10,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 89,
+playerName: "Yamotsu",
+survivalTime: 325,
+teamPlacement: 10,
+teamName: "Big Duck Energy",
+teamNum: 6,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 1083,
+playerName: "AA-Xaveyy-MYM",
+damageDealt: 1360,
+teamPlacement: 7,
+teamName: "AimAssist",
+teamNum: 4,
+assists: 3
+},
+{
+kills: 0,
+survivalTime: 691,
+playerName: "KENSHMOi-Ttv",
+teamNum: 16,
+damageDealt: 144,
+teamName: "HTIM",
+teamPlacement: 6,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 45,
+playerName: "WAR_EmberTTV",
+survivalTime: 696,
+teamPlacement: 13,
+teamName: "WAR Omega",
+teamNum: 19,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 432,
+playerName: "bun invasion",
+teamPlacement: 10,
+survivalTime: 873,
+teamName: "Big Duck Energy",
+teamNum: 6,
+assists: 0
+},
+{
+kills: 2,
+survivalTime: 674,
+playerName: "ZnivoooO-FB",
+teamPlacement: 6,
+damageDealt: 450,
+teamName: "HTIM",
+teamNum: 16,
+assists: 0
+},
+{
+kills: 1,
+damageDealt: 707,
+playerName: "GHOSTRIDEMIKO",
+teamNum: 5,
+survivalTime: 1192,
+teamName: "BadSaint",
+teamPlacement: 4,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 478,
+playerName: "OG_t4n",
+teamNum: 17,
+damageDealt: 79,
+teamName: "TheTiltSquad",
+teamPlacement: 15,
+assists: 0
+},
+{
+kills: 7,
+survivalTime: 0,
+playerName: "DFT-RonMctavish",
+teamNum: 10,
+damageDealt: 1670,
+teamName: "DFT-Reapers",
+teamPlacement: 1,
+assists: 8
+},
+{
+kills: 0,
+survivalTime: 174,
+playerName: "EngrPrime",
+damageDealt: 12,
+teamNum: 7,
+teamName: "Charge",
+teamPlacement: 20,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 176,
+playerName: "GDAssassin",
+teamPlacement: 20,
+damageDealt: 135,
+teamName: "Charge",
+teamNum: 7,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 1036,
+playerName: "OG_MCDJKing",
+damageDealt: 86,
+teamNum: 14,
+teamName: "OG Cyan",
+teamPlacement: 8,
+assists: 0
+},
+{
+kills: 6,
+damageDealt: 1794,
+playerName: "DFT-Gdree",
+teamPlacement: 1,
+survivalTime: 0,
+teamName: "DFT-Reapers",
+teamNum: 10,
+assists: 5
+},
+{
+kills: 0,
+survivalTime: 478,
+playerName: "fb-vernst2.0",
+damageDealt: 40,
+teamNum: 17,
+teamName: "TheTiltSquad",
+teamPlacement: 15,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 362,
+playerName: "<DxB> KhillMoreTV",
+damageDealt: 180,
+teamNum: 8,
+teamName: "Daruma Boys",
+teamPlacement: 16,
+assists: 0
+},
+{
+kills: 6,
+damageDealt: 988,
+playerName: "V1-LiLmimzy",
+teamPlacement: 11,
+survivalTime: 729,
+teamName: "Version 1",
+teamNum: 18,
+assists: 1
+},
+{
+kills: 1,
+survivalTime: 696,
+playerName: "V1-myAntu",
+teamPlacement: 11,
+damageDealt: 156,
+teamName: "Version 1",
+teamNum: 18,
+assists: 5
+},
+{
+kills: 1,
+damageDealt: 484,
+playerName: "IGx-DobbySan",
+survivalTime: 737,
+teamPlacement: 9,
+teamName: "IGx ILAM",
+teamNum: 11,
+assists: 3
+},
+{
+kills: 2,
+damageDealt: 807,
+playerName: "Jaspo",
+survivalTime: 1192,
+teamPlacement: 4,
+teamName: "BadSaint",
+teamNum: 5,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 696,
+playerName: "WRATH_Atomic",
+damageDealt: 467,
+teamPlacement: 12,
+teamName: "Wrath Esports",
+teamNum: 21,
+assists: 2
+},
+{
+kills: 0,
+survivalTime: 1049,
+playerName: "OG_Koi.",
+teamNum: 14,
+damageDealt: 283,
+teamName: "OG Cyan",
+teamPlacement: 8,
+assists: 0
+},
+{
+kills: 2,
+damageDealt: 526,
+playerName: "WRATH_Wratheus",
+survivalTime: 696,
+teamNum: 21,
+teamName: "Wrath Esports",
+teamPlacement: 12,
+assists: 0
+},
+{
+kills: 3,
+damageDealt: 871,
+playerName: "AA-Dark-GNCD",
+teamPlacement: 7,
+survivalTime: 1077,
+teamName: "AimAssist",
+teamNum: 4,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 57,
+playerName: "WAR_4R1zen",
+survivalTime: 695,
+teamNum: 19,
+teamName: "WAR Omega",
+teamPlacement: 13,
+assists: 0
+},
+{
+kills: 6,
+survivalTime: 0,
+playerName: "DFT-CJ",
+teamNum: 10,
+damageDealt: 2503,
+teamName: "DFT-Reapers",
+teamPlacement: 1,
+assists: 8
+},
+{
+kills: 0,
+survivalTime: 607,
+playerName: "YnigoDominguez",
+teamPlacement: 14,
+damageDealt: 119,
+teamName: "Team7",
+teamNum: 15,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 696,
+playerName: "WRATH Ashura",
+damageDealt: 137,
+teamNum: 21,
+teamName: "Wrath Esports",
+teamPlacement: 12,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 180,
+playerName: "WAR_GulayGabs",
+teamPlacement: 19,
+survivalTime: 215,
+teamName: "WAR Sigma",
+teamNum: 20,
+assists: 0
+},
+{
+kills: 4,
+survivalTime: 878,
+playerName: "Bidam-IGx",
+teamPlacement: 9,
+damageDealt: 831,
+teamName: "IGx ILAM",
+teamNum: 11,
+assists: 2
+},
+{
+kills: 0,
+survivalTime: 215,
+playerName: "WAR_xPanda",
+damageDealt: 104,
+teamPlacement: 19,
+teamName: "WAR Sigma",
+teamNum: 20,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 823,
+playerName: "V1-Aikyu",
+survivalTime: 729,
+teamNum: 18,
+teamName: "Version 1",
+teamPlacement: 11,
+assists: 5
+},
+{
+kills: 0,
+survivalTime: 362,
+playerName: "DxB-JecOnyx",
+damageDealt: 0,
+teamPlacement: 16,
+teamName: "Daruma Boys",
+teamNum: 8,
+assists: 0
+},
+{
+kills: 3,
+damageDealt: 1002,
+playerName: "IGx-Caz",
+survivalTime: 1370,
+teamPlacement: 2,
+teamName: "IGx Gobilamers",
+teamNum: 12,
+assists: 1
+},
+{
+kills: 0,
+damageDealt: 0,
+playerName: "hanaciel",
+survivalTime: 176,
+teamPlacement: 20,
+teamName: "Charge",
+teamNum: 7,
+assists: 0
+},
+{
+kills: 2,
+damageDealt: 1014,
+playerName: "CULT-FastZeez",
+teamNum: 2,
+survivalTime: 1168,
+teamName: "3dudes",
+teamPlacement: 5,
+assists: 1
+},
+{
+kills: 1,
+damageDealt: 828,
+playerName: "LIM_Sintelle",
+teamPlacement: 3,
+survivalTime: 1360,
+teamName: "Limitless Tempo",
+teamNum: 13,
+assists: 0
+},
+{
+kills: 4,
+survivalTime: 931,
+playerName: "IGx-Roid",
+damageDealt: 706,
+teamNum: 11,
+teamName: "IGx ILAM",
+teamPlacement: 9,
+assists: 2
+},
+{
+kills: 0,
+damageDealt: 82,
+playerName: "DxB-23Tikss",
+survivalTime: 362,
+teamPlacement: 16,
+teamName: "Daruma Boys",
+teamNum: 8,
+assists: 0
+},
+{
+kills: 3,
+damageDealt: 525,
+playerName: "AA-Lawrence-SMPH",
+teamNum: 4,
+survivalTime: 1047,
+teamName: "AimAssist",
+teamPlacement: 7,
+assists: 3
+},
+{
+kills: 0,
+survivalTime: 696,
+playerName: "WAR_xRhythm",
+damageDealt: 191,
+teamPlacement: 13,
+teamName: "WAR Omega",
+teamNum: 19,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 495,
+playerName: "OG_Wissu",
+teamNum: 14,
+damageDealt: 0,
+teamName: "OG Cyan",
+teamPlacement: 8,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 215,
+playerName: "WAR_KobexTokyo",
+damageDealt: 153,
+teamNum: 20,
+teamName: "WAR Sigma",
+teamPlacement: 19,
+assists: 0
+},
+{
+kills: 0,
+survivalTime: 74,
+playerName: "CULT-IIVATOR",
+damageDealt: 100,
+teamNum: 2,
+teamName: "3dudes",
+teamPlacement: 5,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 146,
+playerName: "TrippyTrippy-FB",
+survivalTime: 478,
+teamPlacement: 15,
+teamName: "TheTiltSquad",
+teamNum: 17,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 81,
+playerName: "eHakuu",
+teamNum: 15,
+survivalTime: 589,
+teamName: "Team7",
+teamPlacement: 14,
+assists: 0
+},
+{
+kills: 0,
+damageDealt: 0,
+playerName: "3KG_Dangcom",
+survivalTime: 224,
+teamNum: 3,
+teamName: "3Kings",
+teamPlacement: 18,
+assists: 0
+},
+{
+kills: 1,
+survivalTime: 1370,
+playerName: "IGx-KSavage_FB",
+teamNum: 12,
+damageDealt: 798,
+teamName: "IGx Gobilamers",
+teamPlacement: 2,
+assists: 2
+},
+{
+kills: 2,
+survivalTime: 1370,
+playerName: "EXE_AlyasPogi",
+damageDealt: 700,
+teamNum: 12,
+teamName: "IGx Gobilamers",
+teamPlacement: 2,
+assists: 4
+},
+{
+kills: 0,
+damageDealt: 604,
+playerName: "LIM_KnrtJM",
+survivalTime: 1360,
+teamNum: 13,
+teamName: "Limitless Tempo",
+teamPlacement: 3,
+assists: 0
+},
+{
+kills: 2,
+damageDealt: 1499,
+playerName: "xKoala-lumpur",
+teamNum: 2,
+survivalTime: 1181,
+teamName: "3dudes",
+teamPlacement: 5,
+assists: 1
+},
+{
+kills: 0,
+survivalTime: 282,
+playerName: "DxB-GiggelsFBTV",
+damageDealt: 109,
+teamPlacement: 17,
+teamName: "Daruma Simp",
+teamNum: 9,
+assists: 0
+}
+]
+}
+]
+}
