@@ -321,7 +321,7 @@ client.on('message', async message =>{
 				.setTitle("ApexAPI DiscordBot")
 				.setAuthor("created by N8VENTURES")
 				.setColor(0x00AE86)
-				.setDescription(insert data here)
+				.setDescription("insert data here")
 				.setFooter("created by N8VENTURES")
 				.setTimestamp()
 			message.channel.send(embed);
