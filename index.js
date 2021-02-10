@@ -22,131 +22,8 @@ client.on('message', async message =>{
 			   case 'hi':
              message.channel.send(`Hey ${user}!`);
 			break;
-			  
-			
-			case 'apex':
-			const StatToken = message.content.replace('apex ','');
-			const ApexAPI = 'https://r5-crossplay.r5prod.stryder.respawn.com/privatematch/?token='
-			const GrabAPI = ApexAPI + StatToken
-			
-			
-			if (message.content === 'apex'){
-			message.channel.send(`${user}` +', please input Stat token!!!')
-			}
-			
-			else{
-            message.channel.send(` ${user} submitted a stat token. \n`);
-			setTimeout(function(){message.channel.send('*Confirming...*\n')} ,1000); 
-			const fetch = require('node-fetch');
-			let url = GrabAPI;
-			fetch(url)
-			
-			
-				.then(res => res.json())
-				.then(json => {
-					
-						//epoch converter
-						const datestrng = JSON.stringify(json.matches[0].match_start);
-						var unixTimestamp = datestrng;
-						var date = new Date(unixTimestamp*1000);
-						var ns = date.toString();
-						//message.channel.send(ns)
-						
-						
-					const allMatches = json.matches.map(m => m.player_results)
-					let cm = []
+			  	
 
-						allMatches.forEach((players) => {
-						players.forEach(player => {
-						if(cm.some(p => p.playerName === player.playerName)){ 
-						let i = cm.findIndex(p => p.playerName === player.playerName)
-    
-							cm[i] = {
-							kills: (cm[i].kills + player.kills),
-							//survivalTime: cm[i].survivalTime + player.survivalTime,
-							//playerName: cm[i].playerName,
-							teamNum: cm[i].teamNum,
-							//damageDealt: cm[i].damageDealt + player.damageDealt,
-							teamName: cm[i].teamName,
-							teamPlacement: [...cm[i].teamPlacement, player.teamPlacement],
-							//assists: cm[i].assists + player.assists,
-						}
-						} else {
-  
-								cm.push({
-								//kills: player.kills,
-								//survivalTime: player.survivalTime,
-								//playerName: player.playerName,
-								teamNum: player.teamNum,
-								//damageDealt: player.damageDealt,
-								teamName: player.teamName,
-								teamPlacement: [player.teamPlacement],
-								//assists: player.assists
-							})
-							}
-						})
-					})
-					
-					const match1 = json.matches.map(m => m.player_results)
-					let m1= []
-					
-						match1.forEach ((players) => {
-						players.forEach(player => {	
-						if(m1.some(p => p.playerName === player.playerName)){ 
-						let i = m1.findIndex(p => p.playerName === player.playerName)
-
-						m1[i]={
-						teamName: m1[i].teamName,
-						teamNum: m1[i].teamNum,	
-						kills: (m1[i].kills + player.kills),
-						teamPlacement: [...m1[i].teamPlacement, player.teamPlacement],					
-						}
-						
-						} else {
-							
-							m1.push({
-								teamName: player.teamName,
-								//teamNum: player.teamNum,
-								teamPlacement: [player.teamPlacement],
-								//kills: player.kills,
-								})
-							}
-						})
-					})
-						
-							const jsonstrng = JSON.stringify(m1);
-							//var pt = m1.sort(function(a, b){return a - b});
-							console.log(m1)
-					
-					//setTimeout(function(){message.channel.send('```json \n' + m1 + '```')} ,1000); 
-				
-				//const jsonstrng = JSON.stringify(cm);
-				//setTimeout(function(){message.channel.send('**JSON OUTPUT 1**\n')} ,1000); 
-				//setTimeout(function(){message.channel.send('```json\n' + jsonstrng + '\n```')} ,1000); 
-				//console.log(cm);
-				//const jsonstrng = JSON.stringify(json);
-				//message.channel.send('```json\n' + jsonstrng + '\n```');
-				
-				//setTimeout(function(){message.channel.send('**JSON OUTPUT 2**\n')} ,1000); 
-				//setTimeout(function(){message.channel.send(json matches[0].match_start) + '\n'},1000);
-				setTimeout(function(){message.channel.send('**END**\n')} ,1000); 
-				
-				//.then(res => res.text())
-				//.then(text => {
-				//setTimeout(function(){message.channel.send('**JSON OUTPUT 1 CHECK CONSOLE**\n')} ,1000); 
-				//setTimeout(function(){console.log(text)});
-
-			});
-			
-			
-			//const fs = require('fs');
-			//let rawdata = fs.readFileSync(GrabAPI);
-			//let apexjson = JSON.parse(rawdata);
-			//message.channel.send(apexjson);
-			
-			}
-			break;
-			
 			case 'apex2':
 			const StatToken2 = message.content.replace('apex2 ','');
 			const ApexAPI2 = 'https://r5-crossplay.r5prod.stryder.respawn.com/privatematch/?token='
@@ -167,91 +44,50 @@ client.on('message', async message =>{
 			fetch(url)
 				.then(res => res.json())
 				.then(json => {	
-				var x;
+				var x=0;
+				var m=-1;
 				function isEmpty(obj) {
 				return Object.keys(obj).length === 0;
 				}	
-				
-							//console.log(matcheslength)
+			
 							
 					if(isEmpty(json)){
 						setTimeout(function(){message.channel.send("**THERE ARE NO AVAILABLE MATCHES.**" +'\n'+ "**PLEASE INPUT CORRECT TOKEN OR WAIT FOR A MATCH TO FINISH!!!**")} ,1000);
 					}						
 					else{
-						for (x = 0; x < json.matches.length; x++){}
-						
+						console.log(x)
+						for (; x < json.matches.length; ){x++;}
+						console.log(x)
 							setTimeout(function(){message.channel.send("there are "+ '***'+ x + '***' + " matches...")} ,1000);
-							setTimeout(function(){message.channel.send("*Loading matches...*\n")} ,2000); 
+							setTimeout(function(){message.channel.send("*Loading matches...*\n")} ,1000); 
 					
 						//epoch converter
 						const datestrng = JSON.stringify(json.matches.match_start);
 						var unixTimestamp = datestrng;
 						var date = new Date(unixTimestamp*1000);
 						var ns = date.toString();
-						//message.channel.send(ns)
 						
-						//var matches1 = json.matches[0]
-		/*		
-						const allMatches = json.matches.map(m => m.player_results)
-						let cm = []
-								
-								
-						allMatches.forEach((players) => {
-						players.forEach(player => {
-						if(cm.some(p => p.teamName === player.teamName)){ 
-						let i = cm.findIndex(p => p.teamName === player.teamName)
-								
-								
-							
-							cm[i] = {
-							kills: (cm[i].kills + player.kills),
-							//survivalTime: cm[i].survivalTime + player.survivalTime,
-							//playerName: cm[i].playerName,
-							//teamNum: cm[i].teamNum,
-							//damageDealt: cm[i].damageDealt + player.damageDealt,
-							teamName: cm[i].teamName,
-							teamPlacement: [...cm[i].teamPlacement, player.teamPlacement],
-							//assists: cm[i].assists + player.assists,
-						}
-								
-								
-						} else {
-								
-								var set1 = new Set();
-								set1.add(player.teamPlacement);
-								//var arr = Array.from(set1);
-								
-								cm.push({
-								kills: player.kills,
-								//survivalTime: player.survivalTime,
-								//playerName: player.playerName,
-								//teamNum: player.teamNum,
-								//damageDealt: player.damageDealt,
-								teamName: player.teamName,
-								teamPlacement: [player.teamPlacement],
-								//assists: player.assists
-							})
-							}
-						})
-					})
-					console.log(cm)
-		*/
-					var m;	
 					
 				
-				for ( m = 0;m < 100; m++){
-				let m1 = []
+				while (m<x-1){
+					
+					m++;
+				
+				console.log(m,x)
+					
+					
+					let m1 = []
 					let pp = 0
 					let tp = 0
 					
-					const matches = json.matches[m].player_results.map(m => m)
+					var matches = json.matches[m]?.player_results.map(m => m)
 					
 					
 					
-					message.channel.send(`${user}` + ", x = " + x + "\n m=" + m + m)
+					//message.channel.send(`${user}` + ", x = " + x + "\n m=" + parseInt(parseInt(m)+ parseInt(1)))
 					
 					
-							matches.forEach(player => {	
+							matches?.forEach(player => {	
 							if(m1.some(p => p.teamName === player.teamName)){ 
 								let i = m1.findIndex(p => p.teamName === player.teamName)
 								switch(m1[i].teamPlacement) {
@@ -322,16 +158,14 @@ client.on('message', async message =>{
 
 					
 				var placements = m1.sort(function(a, b){return b.TotalPoints -  a.TotalPoints});
-				console.log(placements)
+				//console.log(placements)
 				
 				const jsonstrng = JSON.stringify(placements, null, 2);
 				
-			
 			const embed = new Discord.MessageEmbed()
 				.setColor('RANDOM')
-				.setTitle("ApexAPI DiscordBot")
+				.setTitle("ApexAPI DiscordBot \n"+ "**MATCH **"+  parseInt( parseInt(m)+ parseInt(1)))
 				//.setAuthor("created by N8VENTURES")
-				.setColor(0x00AE86)
 				//.setDescription(jsonstrng)
 				.addFields(
 				placements.map(p => ({
@@ -348,11 +182,12 @@ client.on('message', async message =>{
 			
 			setTimeout(function(){message.channel.send(embed)} ,2000); 
 			
-					 
-			} 
-				}	
+			//setTimeout(function(){json = []} ,1000); 
+				 
+			} if (m==x-1){ setTimeout(function(){message.channel.send("**ALL MATCHES LOADED**\n")} ,4000); setTimeout(function(){json = []} ,4000); 	;}
 			
-			});
+			};
+			})
 			}
 			break;
 			   }
