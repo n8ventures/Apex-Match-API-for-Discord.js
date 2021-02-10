@@ -163,11 +163,26 @@ client.on('message', async message =>{
 			setTimeout(function(){message.channel.send('*Confirming...*\n')} ,1000); 
 			const fetch = require('node-fetch');
 			let url = GrabAPI2;
+			
+					
 			fetch(url)
-			
-			
 				.then(res => res.json())
-				.then(json => {
+				.then(json => {	
+				var x;
+				function isEmpty(obj) {
+				return Object.keys(obj).length === 0;
+				}	
+				
+							//console.log(matcheslength)
+							
+					if(isEmpty(json)){
+						setTimeout(function(){message.channel.send("**THERE ARE NO AVAILABLE MATCHES.**" +'\n'+ "**PLEASE INPUT CORRECT TOKEN OR WAIT FOR A MATCH TO FINISH!!!**")} ,1000);
+					}						
+					else{
+						for (x = 0; x < json.matches.length; x++){}
+						
+							setTimeout(function(){message.channel.send("there are "+ '***'+ x + '***' + " matches...")} ,1000);
+							setTimeout(function(){message.channel.send("*Loading matches...*\n")} ,2000); 
 					
 						//epoch converter
 						const datestrng = JSON.stringify(json.matches.match_start);
@@ -227,7 +242,7 @@ client.on('message', async message =>{
 
 					let m1 = []
 					let pp = 0
-
+					let tp = 0
 							match1.forEach(player => {	
 							if(m1.some(p => p.teamName === player.teamName)){ 
 								let i = m1.findIndex(p => p.teamName === player.teamName)
@@ -278,7 +293,8 @@ client.on('message', async message =>{
 									teamName: m1[i].teamName, 
 									kills: (m1[i].kills + player.kills),
 									teamPlacement: (player.teamPlacement),
-									PlacementPoints: pp,									
+									PlacementPoints: pp,
+									TotalPoints: (m1[i].kills + player.kills + pp),
 									}
 									
 
@@ -291,6 +307,7 @@ client.on('message', async message =>{
 								kills: player.kills,
 								teamPlacement: player.teamPlacement,
 								PlacementPoints: pp,
+								TotalPoints: tp,
 							})
 						}
 						//})
@@ -301,31 +318,39 @@ client.on('message', async message =>{
 					//var pt = cm.sort(function(a, b){return a - b});
 					//console.log(pt)
 					
-				var placements = m1.sort(function(a, b){return a.teamPlacement - b.teamPlacement});
-				//console.log(placements)
-				const jsonstrng = JSON.stringify(placements, null, 2);
+				var placements = m1.sort(function(a, b){return b.TotalPoints -  a.TotalPoints});
 				console.log(placements)
-				setTimeout(function(){message.channel.send('**JSON OUTPUT 1**\n')} ,1000); 
+				
+				const jsonstrng = JSON.stringify(placements, null, 2);
+				
+				
+				//var f = placements.join(', ');
+				
+				//setTimeout(function(){message.channel.send('**JSON OUTPUT 1**\n')} ,1000); 
 				
 				//setTimeout(function(){message.channel.send('```json\n' + cm + '\n```')} ,1000); 
 				//console.log(cm);
 				//const jsonstrng = JSON.stringify(json);
-				message.channel.send('```json\n' + jsonstrng + '\n```');
+				//message.channel.send('```json\n' + jsonstrng + '\n```');
 				//setTimeout(function(){message.channel.send('**JSON OUTPUT 2**\n')} ,1000); 
 				
 			//var set1 = new Set();
 			//set1.add(m1);	
 			//console.log(set1)
-			setTimeout(function(){message.channel.send('**JSON OUTPUT 2**\n')} ,1000); 
+			//setTimeout(function(){message.channel.send('**JSON OUTPUT 2**\n')} ,1000); 
 			const embed = new Discord.MessageEmbed()
 				.setTitle("ApexAPI DiscordBot")
 				.setAuthor("created by N8VENTURES")
 				.setColor(0x00AE86)
-				.setDescription("insert data here")
+				.setDescription(jsonstrng)
 				.setFooter("created by N8VENTURES")
 				.setTimestamp()
-			message.channel.send(embed);
-			setTimeout(function(){message.channel.send('**END**\n')} ,1000); 
+			
+			setTimeout(function(){message.channel.send(embed)} ,2000); 
+			//setTimeout(function(){message.channel.send('**END**\n')} ,1000); 
+			}
+				
+			
 			});
 			}
 			break;
