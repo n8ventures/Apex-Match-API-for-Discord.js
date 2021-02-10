@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-require("babel-polyfill");
 
 var auth = require('./auth.json');
 
@@ -237,16 +236,24 @@ client.on('message', async message =>{
 					})
 					console.log(cm)
 		*/
+					var m;	
 					
-					const match1 = json.matches[0].player_results.map(m => m)
-
-					let m1 = []
+				
+				for ( m = 0;m < 100; m++){
+				let m1 = []
 					let pp = 0
 					let tp = 0
-							match1.forEach(player => {	
+					
+					const matches = json.matches[m].player_results.map(m => m)
+					
+					
+					
+					message.channel.send(`${user}` + ", x = " + x + "\n m=" + m + m)
+					
+					
+							matches.forEach(player => {	
 							if(m1.some(p => p.teamName === player.teamName)){ 
 								let i = m1.findIndex(p => p.teamName === player.teamName)
-								
 								switch(m1[i].teamPlacement) {
 									case 1:
 									pp=12;
@@ -310,37 +317,20 @@ client.on('message', async message =>{
 								TotalPoints: tp,
 							})
 						}
-						//})
+						
 					})
-							//var pt = m1.sort(function(a, b){return a - b});
-							//console.log(m1)
-					
-					//var pt = cm.sort(function(a, b){return a - b});
-					//console.log(pt)
+
 					
 				var placements = m1.sort(function(a, b){return b.TotalPoints -  a.TotalPoints});
 				console.log(placements)
 				
 				const jsonstrng = JSON.stringify(placements, null, 2);
 				
-				
-				//var f = placements.join(', ');
-				
-				//setTimeout(function(){message.channel.send('**JSON OUTPUT 1**\n')} ,1000); 
-				
-				//setTimeout(function(){message.channel.send('```json\n' + cm + '\n```')} ,1000); 
-				//console.log(cm);
-				//const jsonstrng = JSON.stringify(json);
-				//message.channel.send('```json\n' + jsonstrng + '\n```');
-				//setTimeout(function(){message.channel.send('**JSON OUTPUT 2**\n')} ,1000); 
-				
-			//var set1 = new Set();
-			//set1.add(m1);	
-			//console.log(set1)
-			//setTimeout(function(){message.channel.send('**JSON OUTPUT 2**\n')} ,1000); 
+			
 			const embed = new Discord.MessageEmbed()
+				.setColor('RANDOM')
 				.setTitle("ApexAPI DiscordBot")
-				.setAuthor("created by N8VENTURES")
+				//.setAuthor("created by N8VENTURES")
 				.setColor(0x00AE86)
 				//.setDescription(jsonstrng)
 				.addFields(
@@ -353,21 +343,18 @@ client.on('message', async message =>{
 							)
 				
 				)
-				.setFooter("created by N8VENTURES")
+				.setFooter("created by N8VENTURES. With help from Manokii")
 				.setTimestamp()
 			
 			setTimeout(function(){message.channel.send(embed)} ,2000); 
-			//setTimeout(function(){message.channel.send('**END**\n')} ,1000); 
-			}
-				
+			
+					 
+			} 
+				}	
 			
 			});
 			}
 			break;
 			   }
 				});
-				
-				//Categorize per match and sub-category per team 
-				//Show Placement
-				//Show Kills
-				//show total points
+		
