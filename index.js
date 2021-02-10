@@ -25,7 +25,7 @@ client.on('message', async message =>{
 			  	
 
 			case '.apex':
-			const StatToken2 = message.content.replace('apex2 ','');
+			const StatToken2 = message.content.replace('apex2 ','').replace(/\s/g, '');
 			const ApexAPI2 = 'https://r5-crossplay.r5prod.stryder.respawn.com/privatematch/?token='
 			const GrabAPI2 = ApexAPI2 + StatToken2
 			
