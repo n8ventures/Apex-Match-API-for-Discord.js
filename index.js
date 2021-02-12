@@ -5,7 +5,6 @@ var auth = require('./auth.json');
 
 
 client.once('ready', () => {
-		//Tags.sync();
 	console.log('Ready!');
 	client.user.setActivity('N8 eating my nut-- ella', { type: 'WATCHING' });
 });
@@ -16,7 +15,7 @@ client.login(auth.token);
 client.on('message', async message =>{
 		const prefix = '.';
 		const user = message.author;
-		const args = message.content.split(' '); //const args = message.content.slice(prefix.length).split(' ');
+		const args = message.content.split(' ');
 		const cmd = args.shift().toLowerCase();
 			   switch(cmd) {
 			   case '.hi':
@@ -25,22 +24,18 @@ client.on('message', async message =>{
 			message.channel.send(`Hey ${user}!`);
 			break;
 
-
 			case '.apex':
 			
 			const StatToken2 = message.content.replace('.apex ','').replace(/\s/g, '');
-			//const nospace= message.content.replace(/\s/g, '')
 			const ApexAPI2 = 'https://r5-crossplay.r5prod.stryder.respawn.com/privatematch/?token='
 			const GrabAPI2 = ApexAPI2 + StatToken2
 			
-			
 			if (message.content === '.apex'){
-			message.channel.send(`${user}` +', please input Stat token!!!')
+			message.channel.send(`⚠ *** ${user}` +' PLEASE INPUT STAT TOKEN*** ⚠')
 			}
-			
 			else{
-            message.channel.send(` ${user} submitted a stat token. \n`);
-			setTimeout(function(){message.channel.send('*Confirming...*\n')} ,1000); 
+            message.channel.send(`❗❗❗  ${user} submitted a stat token. ❗❗❗  \n`);
+			setTimeout(function(){message.channel.send('*Confirming...* ⌛\n')} ,1000); 
 			const fetch = require('node-fetch');
 			let url = GrabAPI2;
 			
@@ -50,47 +45,63 @@ client.on('message', async message =>{
 				.then(json => {	
 				var x=0;
 				var m=-1;
+				var n=0;
+				var b=0;
 				function isEmpty(obj) {
 				return Object.keys(obj).length === 0;
 				}	
 			
 							
 					if(isEmpty(json)){
-						setTimeout(function(){message.channel.send("**THERE ARE NO AVAILABLE MATCHES.**" +'\n'+ "**PLEASE INPUT CORRECT TOKEN OR WAIT FOR A MATCH TO FINISH!!!**")} ,1000);
+						setTimeout(function(){message.channel.send("**⚠   MATCHES NOT DETECTED!   ⚠**" +'\n \n'+ "**⚠  PLEASE INPUT CORRECT TOKEN OR WAIT FOR THE MATCH TO FINISH!!!**  ⚠")} ,1000);
 					}						
 					else{
 						console.log(x)
 						for (; x < json.matches.length; ){x++;}
 						console.log(x)
-							setTimeout(function(){message.channel.send("there are "+ '***'+ x + '***' + " matches...")} ,1000);
-							setTimeout(function(){message.channel.send("*Loading matches...*\n")} ,1000); 
+							setTimeout(function(){message.channel.send('***'+ x  + " MATCH/ES FOUND!"+ '*** '+ " ✅")} ,1000);
+							setTimeout(function(){message.channel.send("*Loading matches...* ⌛\n")} ,1000); 
 					
-						//epoch converter
-						const datestrng = JSON.stringify(json.matches.match_start);
-						var unixTimestamp = datestrng;
-						var date = new Date(unixTimestamp*1000);
-						var ns = date.toString();
-						
-					
-				
 				while (m<x-1){
-					
 					m++;
-				
-				console.log(m,x)
+					n++;
+					b--;
+					//epoch converter
+					let mt = []
+					var match_time = json.matches.map(t => t)
 					
+						match_time.forEach(time => {
+								if(mt.some(e => e.match_start === time.match_start)){
+									let u = mt.findIndex(e => e.match_start === time.match_start) 
 					
+									mt[u]={	
+										match_start: mt[u].match_start, 
+										}	
+								}
+								else {
+							
+									mt.push({
+									match_start: time.match_start,
+									})
+								}
+							})
+						function numOnly(value) {
+						if (typeof (val) === 'number') {
+						return val;
+							}
+						}
+					var date_select = mt.slice(m, n);
+					var datestrng = JSON.stringify(date_select);
+					var res = datestrng.replace(/\D/g, "");
+					var unixTimestamp = res;
+					var date = new Date(unixTimestamp*1000);
+					var nt = date.toString();
+					var ns = nt.replace('(China Standard Time)','')
+
 					let m1 = []
 					let pp = 0
 					let tp = 0
-					
 					var matches = json.matches[m]?.player_results.map(m => m)
-					
-					
-					
-					//message.channel.send(`${user}` + ", x = " + x + "\n m=" + parseInt(parseInt(m)+ parseInt(1)))
-					
-					
 							matches?.forEach(player => {	
 							if(m1.some(p => p.teamName === player.teamName)){ 
 								let i = m1.findIndex(p => p.teamName === player.teamName)
@@ -134,8 +145,7 @@ client.on('message', async message =>{
 									pp=0;
 									break;
 								}									
-							
-									
+
 									m1[i]={	
 									teamName: m1[i].teamName, 
 									kills: (m1[i].kills + player.kills),
@@ -143,9 +153,7 @@ client.on('message', async message =>{
 									PlacementPoints: pp,
 									TotalPoints: (m1[i].kills + player.kills + pp),
 									}
-									
-
-										
+	
 							} 
 						else {
 							
@@ -159,73 +167,58 @@ client.on('message', async message =>{
 						}
 						
 					})
-
-					
 				var placements = m1.sort(function(a, b){return b.TotalPoints -  a.TotalPoints});
-				//console.log(placements)
-				
-				const jsonstrng = JSON.stringify(placements, null, 2);
-				
 			const embed = new Discord.MessageEmbed()
 				.setColor('RANDOM')
-				.setTitle("ApexAPI DiscordBot \n"+ "**🎲 MATCH **"+  parseInt( parseInt(m)+ parseInt(1)))
-				.setAuthor("🔻 N8VENTURES' (with help from Manokii🐔) 🔻")
+				.setTitle("ApexAPI DiscordBot \n"+ "**🎲 MATCH **"+  parseInt( parseInt(x)+ parseInt(b) + parseInt(1)) +"\n 🕒 "+ ns)
+				.setAuthor("🔻 N8VENTURES' *(with help from Manokii🐔)* 🔻")
 				//.setDescription(jsonstrng)
 				.addFields(
 				placements.map(p => ({
 					//pname=p.teamname
 					name: `🏴‍☠️ ${p.teamName} 🏴‍☠️`,
 					value: `☠️ Kills: ${p.kills} 
-							👟 Placement: ${p.teamPlacement} \n
+							👟 Placement: ${p.teamPlacement}
 							🏅 **Total Points: ${p.TotalPoints}** \n ------------------------`
 									})
 							)
 				
 				)
-				.setFooter("🔻 created by N8VENTURES. With help from Manokii🐔 🔻")
+				.setFooter(" **N8VENTURES 🔻 ** x ** Manokii🐔** 2021")
 				.setTimestamp()
 			
 			setTimeout(function(){message.channel.send(embed)} ,2000); 
-			
-			//setTimeout(function(){json = []} ,1000); 
-				 
-			} if (m==x-1){ setTimeout(function(){message.channel.send("**ALL MATCHES LOADED**\n")} ,4000); setTimeout(function(){json = []} ,4000); 	;}
+
+			} if (m==x-1){ setTimeout(function(){message.channel.send("\n **🎉   ALL MATCHES LOADED   🎉**\n")} ,4000); setTimeout(function(){json = []} ,4000); 	;}
 			
 			};
 			})
 			}
-			break;
-			
-	
-			 }
-			   
-			   
-				});
+			break;	
+	}
+});
 				
-				
-		
 			client.on('message', async message =>{
 		const prefix = '.';
 		const user = message.author;
-		const args = message.content.split(' '); //const args = message.content.slice(prefix.length).split(' ');
+		const args = message.content.split(' '); 
 		const cmd2 = args.shift().toLowerCase();
 				switch(cmd2) {
 			   
 			   	case '.ato':
 			
 			const StatToken2 = message.content.replace('.ato ','').replace(/\s/g, '');
-			//const nospace= message.content.replace(/\s/g, '')
 			const ApexAPI2 = 'https://r5-crossplay.r5prod.stryder.respawn.com/privatematch/?token='
 			const GrabAPI2 = ApexAPI2 + StatToken2
 			
 			
 			if (message.content === '.ato'){
-			message.channel.send(`${user}` +', please input Stat token!!!')
+			message.channel.send(`⚠ *** ${user}` +' PLEASE INPUT STAT TOKEN*** ⚠')
 			}
 			
 			else{
-            message.channel.send(` ${user} submitted a stat token. \n`);
-			setTimeout(function(){message.channel.send('*Confirming...*\n')} ,1000); 
+            message.channel.send(`❗❗❗  ${user} submitted a stat token. ❗❗❗  \n`);
+			setTimeout(function(){message.channel.send('*Confirming...* ⌛\n')} ,1000); 
 			const fetch = require('node-fetch');
 			let url = GrabAPI2;
 			
@@ -235,47 +228,67 @@ client.on('message', async message =>{
 				.then(json => {	
 				var x=0;
 				var m=-1;
+				var n=0;
+				var b=0;
 				function isEmpty(obj) {
 				return Object.keys(obj).length === 0;
 				}	
-			
-							
+		
 					if(isEmpty(json)){
-						setTimeout(function(){message.channel.send("**THERE ARE NO AVAILABLE MATCHES.**" +'\n'+ "**PLEASE INPUT CORRECT TOKEN OR WAIT FOR A MATCH TO FINISH!!!**")} ,1000);
+						setTimeout(function(){message.channel.send("**⚠   MATCHES NOT DETECTED!   ⚠**" +'\n \n'+ "⚠  **PLEASE INPUT CORRECT TOKEN OR WAIT FOR THE MATCH TO FINISH!!!**  ⚠")} ,1000);
 					}						
 					else{
 						console.log(x)
 						for (; x < json.matches.length; ){x++;}
 						console.log(x)
-							setTimeout(function(){message.channel.send("there are "+ '***'+ x + '***' + " matches...")} ,1000);
-							setTimeout(function(){message.channel.send("*Loading matches...*\n")} ,1000); 
-					
-						//epoch converter
-						const datestrng = JSON.stringify(json.matches.match_start);
-						var unixTimestamp = datestrng;
-						var date = new Date(unixTimestamp*1000);
-						var ns = date.toString();
-						
-					
-				
+							setTimeout(function(){message.channel.send('***'+ x  + " MATCH/ES FOUND!"+ '*** '+ " ✅")} ,1000);
+							setTimeout(function(){message.channel.send("*Loading matches...* ⌛\n")} ,1000); 
+
 				while (m<x-1){
-					
 					m++;
-				
+					n++;
+					b--;
+					//epoch converter
+					let mt = []
+					var match_time = json.matches.map(t => t)
+					
+						match_time.forEach(time => {
+								if(mt.some(e => e.match_start === time.match_start)){
+									let u = mt.findIndex(e => e.match_start === time.match_start) 
+					
+									mt[u]={	
+										match_start: mt[u].match_start, 
+										}	
+								}
+								else {
+							
+									mt.push({
+									match_start: time.match_start,
+									})
+								}
+							})
+					
+						
+						function numOnly(value) {
+						if (typeof (val) === 'number') {
+						return val;
+							}
+						}
+					var date_select = mt.slice(m, n);
+					var datestrng = JSON.stringify(date_select);
+					var res = datestrng.replace(/\D/g, "");
+					var unixTimestamp = res;
+					var date = new Date(unixTimestamp*1000);
+					var nt = date.toString();
+					var ns = nt.replace('(China Standard Time)','')
+
 				console.log(m,x)
 					
-					
+			
 					let m1 = []
 					let pp = 0
 					let tp = 0
-					
 					var matches = json.matches[m]?.player_results.map(m => m)
-					
-					
-					
-					//message.channel.send(`${user}` + ", x = " + x + "\n m=" + parseInt(parseInt(m)+ parseInt(1)))
-					
-					
 							matches?.forEach(player => {	
 							if(m1.some(p => p.teamName === player.teamName)){ 
 								let i = m1.findIndex(p => p.teamName === player.teamName)
@@ -318,9 +331,7 @@ client.on('message', async message =>{
 									case 20:
 									pp=0;
 									break;
-								}									
-							
-									
+								}											
 									m1[i]={	
 									teamName: m1[i].teamName, 
 									kills: (m1[i].kills + player.kills),
@@ -328,9 +339,6 @@ client.on('message', async message =>{
 									PlacementPoints: pp,
 									TotalPoints: (m1[i].kills + player.kills + pp),
 									}
-									
-
-										
 							} 
 						else {
 							
@@ -347,40 +355,32 @@ client.on('message', async message =>{
 
 					
 				var placements = m1.sort(function(a, b){return b.TotalPoints -  a.TotalPoints});
-				//console.log(placements)
-				
-				const jsonstrng = JSON.stringify(placements, null, 2);
-				
 			const embed = new Discord.MessageEmbed()
 				.setColor('RANDOM')
-				.setTitle("ApexAPI DiscordBot \n"+ "**🎲 MATCH **"+  parseInt( parseInt(m)+ parseInt(1)))
-				.setAuthor("🔻 N8VENTURES' (with help from Manokii🐔) 🔻")
-				//.setDescription(jsonstrng)
+				.setTitle("ApexAPI DiscordBot \n"+ "**🎲 MATCH **"+  parseInt( parseInt(x)+ parseInt(b) + parseInt(1)) +"\n 🕒 "+ ns)
+				.setAuthor("🔻 N8VENTURES' *(with help from Manokii🐔)* 🔻")
 				.addFields(
 				placements.map(p => ({
-					//pname=p.teamname
 					name: `🏴‍☠️ ${p.teamName} 🏴‍☠️`,
 					value: `🏅 **Total Points: ${p.TotalPoints}** \n ------------------------`
 									})
 							)
 				
 				)
-				.setFooter("🔻 created by N8VENTURES. With help from Manokii🐔 🔻")
+				.setFooter(" **N8VENTURES 🔻 ** x ** Manokii🐔** 2021")
 				.setTimestamp()
 			
 			setTimeout(function(){message.channel.send(embed)} ,2000); 
-			
-			//setTimeout(function(){json = []} ,1000); 
-				 
-			} if (m==x-1){ setTimeout(function(){message.channel.send("**ALL MATCHES LOADED**\n")} ,4000); setTimeout(function(){json = []} ,4000); 	;}
+			} if (m==x-1){ setTimeout(function(){message.channel.send("\n **🎉   ALL MATCHES LOADED   🎉**\n")} ,4000); setTimeout(function(){json = []} ,4000); 	;}
 			
 			};
 			})
 			}
 			break;
 			
+			
 			case '.help':
-            
+        
 const embed = {
   "description": `Help Menu for ${user}!`,
   "color": 2947688,
@@ -405,10 +405,7 @@ const embed = {
   ]
 };
 message.channel.send({ embed });
-			   break;
-			   
-			   }
-			   
-			   
-				});
+			   break;		   
+	}
+});
 		
