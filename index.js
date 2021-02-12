@@ -171,7 +171,7 @@ client.on('message', async message =>{
 			const embed = new Discord.MessageEmbed()
 				.setColor('RANDOM')
 				.setTitle("ApexAPI DiscordBot \n"+ "**🎲 MATCH **"+  parseInt( parseInt(x)+ parseInt(b) + parseInt(1)) +"\n 🕒 "+ ns)
-				.setAuthor("🔻 N8VENTURES' *(with help from Manokii🐔)* 🔻")
+				.setAuthor("🔻 N8VENTURES' (with help from Manokii🐔) 🔻")
 				//.setDescription(jsonstrng)
 				.addFields(
 				placements.map(p => ({
@@ -184,7 +184,7 @@ client.on('message', async message =>{
 							)
 				
 				)
-				.setFooter(" **N8VENTURES 🔻 ** x ** Manokii🐔** 2021")
+				.setFooter("N8VENTURES🔻  x  Manokii🐔 2021")
 				.setTimestamp()
 			
 			setTimeout(function(){message.channel.send(embed)} ,2000); 
@@ -358,7 +358,7 @@ client.on('message', async message =>{
 			const embed = new Discord.MessageEmbed()
 				.setColor('RANDOM')
 				.setTitle("ApexAPI DiscordBot \n"+ "**🎲 MATCH **"+  parseInt( parseInt(x)+ parseInt(b) + parseInt(1)) +"\n 🕒 "+ ns)
-				.setAuthor("🔻 N8VENTURES' *(with help from Manokii🐔)* 🔻")
+				.setAuthor("🔻 N8VENTURES' (with help from Manokii🐔) 🔻")
 				.addFields(
 				placements.map(p => ({
 					name: `🏴‍☠️ ${p.teamName} 🏴‍☠️`,
@@ -367,7 +367,7 @@ client.on('message', async message =>{
 							)
 				
 				)
-				.setFooter(" **N8VENTURES 🔻 ** x ** Manokii🐔** 2021")
+				.setFooter("N8VENTURES🔻  x  Manokii🐔 2021")
 				.setTimestamp()
 			
 			setTimeout(function(){message.channel.send(embed)} ,2000); 
