@@ -1,5 +1,5 @@
 {
-  "name": "betatestjs",
+  "name": "OG Arena Bot",
   "version": "1.0.0",
   "description": "testing bot",
   "main": "index.js",
@@ -9,12 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cleverbot.io": "^1.0.4",
-    "discord.js": "^12.5.1",
-    "node-fetch": "^2.6.1",
-    "sequelize": "^5.21.7",
-    "sqlite3": "^4.2.0",
-    "twitch": "^4.0.9",
-    "twitch-helix": "^1.0.7"
+    "discord.js": "^12.5.1"
   }
 }

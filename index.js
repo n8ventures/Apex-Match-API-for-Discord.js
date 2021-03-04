@@ -6,7 +6,7 @@ var auth = require('./auth.json');
 
 client.once('ready', () => {
 	console.log('Ready!');
-	client.user.setActivity('N8 eating my nut-- ella', { type: 'WATCHING' });
+	client.user.setActivity('OG surpassing everyone', { type: 'WATCHING' });
 });
 
 client.login(auth.token);
