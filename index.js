@@ -1,12 +1,13 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+var moment = require('moment-timezone');
 
 var auth = require('./auth.json');
 
 
 client.once('ready', () => {
 	console.log('Ready!');
-	client.user.setActivity('N8 eating my nut-- ella', { type: 'WATCHING' });
+	client.user.setActivity('OG surpassing everyone', { type: 'WATCHING' });
 });
 
 client.login(auth.token);
@@ -94,9 +95,11 @@ client.on('message', async message =>{
 					var datestrng = JSON.stringify(date_select);
 					var res = datestrng.replace(/\D/g, "");
 					var unixTimestamp = res;
+					//var date = new Date(unixTimestamp*1000);
+					//var nt = date.toString();
+					//var ns = nt.replace('(China Standard Time)','')
 					var date = new Date(unixTimestamp*1000);
-					var nt = date.toString();
-					var ns = nt.replace('(China Standard Time)','')
+					var nt = moment.tz(date, "Asia/Manila").format('YYYY-MM-DD h:mm A ZZ');
 
 					let m1 = []
 					let pp = 0
@@ -170,7 +173,7 @@ client.on('message', async message =>{
 				var placements = m1.sort(function(a, b){return b.TotalPoints -  a.TotalPoints});
 			const embed = new Discord.MessageEmbed()
 				.setColor('RANDOM')
-				.setTitle("ApexAPI DiscordBot \n"+ "**🎲 MATCH **"+  parseInt( parseInt(x)+ parseInt(b) + parseInt(1)) +"\n 🕒 "+ ns)
+				.setTitle("ApexAPI DiscordBot \n"+ "**🎲 MATCH **"+  parseInt( parseInt(x)+ parseInt(b) + parseInt(1)) +"\n 🕒 "+ nt)
 				.setAuthor("🔻 N8VENTURES' (with help from Manokii🐔) 🔻")
 				//.setDescription(jsonstrng)
 				.addFields(
@@ -278,10 +281,12 @@ client.on('message', async message =>{
 					var datestrng = JSON.stringify(date_select);
 					var res = datestrng.replace(/\D/g, "");
 					var unixTimestamp = res;
+					//var date = new Date(unixTimestamp*1000);
+					//var nt = date.toString();
+					//var ns = nt.replace('(China Standard Time)','')
 					var date = new Date(unixTimestamp*1000);
-					var nt = date.toString();
-					var ns = nt.replace('(China Standard Time)','')
-
+					var nt = moment.tz(date, "Asia/Manila").format('YYYY-MM-DD h:mm A ZZ');
+					
 				console.log(m,x)
 					
 			
@@ -357,7 +362,7 @@ client.on('message', async message =>{
 				var placements = m1.sort(function(a, b){return b.TotalPoints -  a.TotalPoints});
 			const embed = new Discord.MessageEmbed()
 				.setColor('RANDOM')
-				.setTitle("ApexAPI DiscordBot \n"+ "**🎲 MATCH **"+  parseInt( parseInt(x)+ parseInt(b) + parseInt(1)) +"\n 🕒 "+ ns)
+				.setTitle("ApexAPI DiscordBot \n"+ "**🎲 MATCH **"+  parseInt( parseInt(x)+ parseInt(b) + parseInt(1)) +"\n 🕒 "+ nt)
 				.setAuthor("🔻 N8VENTURES' (with help from Manokii🐔) 🔻")
 				.addFields(
 				placements.map(p => ({
@@ -382,9 +387,12 @@ client.on('message', async message =>{
 			case '.help':
         
 const embed = {
+  "author": {"name":"🔻 N8VENTURES' (with help from Manokii🐔) 🔻",
+	"url": "https://www.facebook.com/blindspotprod"},
+  "thumbnail": {
+  "url": "https://cdn.discordapp.com/avatars/817056565189804043/9bf2181ec4a603a86e8a1e2485324792.png?"},
   "description": `Help Menu for ${user}!`,
   "color": 2947688,
-  "timestamp": "2021-02-11T00:11:12.568Z",
   "fields": [
   {
       "name": ".help",
@@ -401,11 +409,19 @@ const embed = {
 	   {
       "name": ".hi",
       "value": "try it 😉"
+    },
+	{
+      "name": ".ping",
+      "value": "play ping pong 😉 😉"
     }
   ]
 };
 message.channel.send({ embed });
-			   break;		   
+			break;	
+
+			case '.ping':
+			 message.channel.send(`🏓 *hehe*. \n **Latency** is __**${Date.now() - message.createdTimestamp}ms!**__ \n **API Latency** is __**${Math.round(client.ws.ping)}ms!**__`);
+			break;
 	}
 });
 		
