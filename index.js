@@ -420,7 +420,7 @@ message.channel.send({ embed });
 			break;	
 
 			case '.ping':
-			 message.channel.send(`🏓 *hehe*. \n **Latency** is ***${Date.now() - message.createdTimestamp}***ms. \n **API Latency** is ***${Math.round(client.ws.ping)}***ms!`);
+			 message.channel.send(`🏓 *hehe*. \n **Latency** is __**${Date.now() - message.createdTimestamp}ms!**__ \n **API Latency** is __**${Math.round(client.ws.ping)}ms!**__`);
 			break;
 	}
 });
