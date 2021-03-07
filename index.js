@@ -605,7 +605,7 @@ client.on('message', async message =>{
 				placements.map(p => ({
 					//pname=p.teamname
 					name: `🏴‍☠️ ${p.teamName} 🏴‍☠️`,
-					value: `#️⃣  Team Name: ${p.teamNum}
+					value: `#️⃣  Team Number ${p.teamNum}
 							🔥 Players: ${p.playerName}
 							☠️ Kills: ${p.kills}
 							👟 Placement: ${p.teamPlacement}
