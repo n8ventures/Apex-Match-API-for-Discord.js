@@ -403,7 +403,7 @@ const embed = {
     },
     {
       "name": ".apex",
-      "value": "Displays Kills, Placements, and Total Points each team per match \n ex. `.apex [stat token]`"
+      "value": "Displays Kills, Placements, and Total Points each team per match. \n *ex.* `.apex [stat token]`"
     },
     {
       "name": ".ato",
