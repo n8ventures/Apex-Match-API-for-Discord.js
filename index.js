@@ -33,10 +33,12 @@ client.on('message', async message =>{
 			
 			if (message.content === '.apex'){
 			message.channel.send(`⚠ *** ${user}` +' PLEASE INPUT STAT TOKEN*** ⚠')
+			
 			}
 			else{
-            message.channel.send(`❗❗❗  ${user} submitted a stat token. ❗❗❗  \n`);
-			setTimeout(function(){message.channel.send('*Confirming...* ⌛\n')} ,1000); 
+			message.delete(500);
+			setTimeout(function(){message.channel.send('*Deleting message...* 🧼 Do not worry. We got your input token! *(I mean, hopefully it is a token heh)* 👍\n')} ,1000); 
+			setTimeout(function(){message.channel.send('*Confirming...* ⌛\n')} ,1050); 
 			const fetch = require('node-fetch');
 			let url = GrabAPI2;
 			
@@ -192,7 +194,7 @@ client.on('message', async message =>{
 			
 			setTimeout(function(){message.channel.send(embed)} ,2000); 
 
-			} if (m==x-1){ setTimeout(function(){message.channel.send("\n **🎉   ALL MATCHES LOADED   🎉**\n")} ,4000); setTimeout(function(){json = []} ,4000); 	;}
+			} if (m==x-1){ setTimeout(function(){message.channel.send("\n **🎉   ALL MATCHES LOADED   🎉**\n")} ,4000); setTimeout(function(){json = []} ,5000); 	;}
 			
 			};
 			})
@@ -220,7 +222,8 @@ client.on('message', async message =>{
 			}
 			
 			else{
-            message.channel.send(`❗❗❗  ${user} submitted a stat token. ❗❗❗  \n`);
+			message.delete(500);
+			setTimeout(function(){message.channel.send('*Deleting message...* 🧼 Do not worry. We got your input token! *(I mean, hopefully it is a token heh)* 👍\n')} ,1000); 
 			setTimeout(function(){message.channel.send('*Confirming...* ⌛\n')} ,1000); 
 			const fetch = require('node-fetch');
 			let url = GrabAPI2;
