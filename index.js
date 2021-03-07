@@ -606,7 +606,7 @@ client.on('message', async message =>{
 					//pname=p.teamname
 					name: `🏴‍☠️ ${p.teamName} 🏴‍☠️`,
 					value: `#️⃣  Team Number ${p.teamNum}
-							🔥 Players: ${p.playerName}
+							🔥 Players: ${p.playerName} 
 							☠️ Kills: ${p.kills}
 							👟 Placement: ${p.teamPlacement}
 							🏅 **Total Points: ${p.TotalPoints}** \n ------------------------`
