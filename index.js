@@ -420,9 +420,9 @@ message.channel.send({ embed });
 			break;	
 
 			case '.ping':
-			 setTimeout(function(){message.channel.send('🏓 *hehe*.')} ,1000); 
-			 setTimeout(function(){message.channel.send('\n **Latency** is __**${Date.now() - message.createdTimestamp}ms!**__')} ,1000); 
-			 setTimeout(function(){message.channel.send(' \n **API Latency** is __**${Math.round(client.ws.ping)}ms!**__')} ,1000); 
+			 setTimeout(function(){message.channel.send(`🏓 *hehe*.`)} ,1000); 
+			 setTimeout(function(){message.channel.send(`\n **Latency** is __**${Date.now() - message.createdTimestamp}ms!**__`)} ,2000); 
+			 setTimeout(function(){message.channel.send(` \n **API Latency** is __**${Math.round(client.ws.ping)}ms!**__`)} ,3000); 
 			break;
 	}
 });
