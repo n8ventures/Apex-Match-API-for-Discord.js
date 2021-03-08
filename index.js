@@ -181,7 +181,7 @@ client.on('message', async message =>{
 				.addFields(
 				placements.map(p => ({
 					//pname=p.teamname
-					name: `🏴‍☠️ ${p.teamName} 🏴‍☠️`,
+					name: `${p.teamName}`,
 					value: `☠️ Kills: ${p.kills} 
 							👟 Placement: ${p.teamPlacement}
 							🏅 **Total Points: ${p.TotalPoints}** \n ------------------------`
@@ -369,7 +369,7 @@ client.on('message', async message =>{
 				.setAuthor("🔻 N8VENTURES' (with help from Manokii🐔) 🔻")
 				.addFields(
 				placements.map(p => ({
-					name: `🏴‍☠️ ${p.teamName} 🏴‍☠️`,
+					name: `${p.teamName}`,
 					value: `🏅 **Total Points: ${p.TotalPoints}** \n ------------------------`
 									})
 							)
@@ -604,7 +604,7 @@ client.on('message', async message =>{
 				.addFields(
 				placements.map(p => ({
 					//pname=p.teamname
-					name: `🏴‍☠️ ${p.teamName} 🏴‍☠️`,
+					name: `${p.teamName}`,
 					value: `#️⃣  Team Number ${p.teamNum}
 							🔥 Players: ${p.playerName} 
 							☠️ Kills: ${p.kills}
