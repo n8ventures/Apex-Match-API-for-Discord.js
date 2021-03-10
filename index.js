@@ -1,17 +1,20 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 var moment = require('moment-timezone');
-client.user.setAvatar('./avatar.png')
-  .then(user => console.log(`New avatar set!`))
-  .catch(console.error);
-  
+
+
 var auth = require('./auth.json');
 
 
 client.once('ready', () => {
+	client.user.setAvatar('./avatar.png')
+  .then(user => console.log(`New avatar set!`))
+  .catch(console.error);
+  
 	console.log('Ready!');
 	client.user.setActivity('OG surpassing everyone', { type: 'WATCHING' });
 });
+
 
 client.login(auth.token);
 
