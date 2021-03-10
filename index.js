@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 var moment = require('moment-timezone');
-client.user.setAvatar('./avatar.jpg')
+client.user.setAvatar('./avatar.png')
   .then(user => console.log(`New avatar set!`))
   .catch(console.error);
   
