@@ -1,7 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 var moment = require('moment-timezone');
-
+client.user.setAvatar('./avatar.jpg')
+  .then(user => console.log(`New avatar set!`))
+  .catch(console.error);
+  
 var auth = require('./auth.json');
 
 
