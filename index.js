@@ -419,6 +419,10 @@ const embed = {
       "name": ".apexfull",
       "value": "Similar to the 2 commands above but includes team numbers and team names."
     },
+	{
+      "name": ".excel",
+      "value": "similar to `.ato` command, but more "Excel-friendly." "
+    },
 	   {
       "name": ".hi",
       "value": "try it 😉"
