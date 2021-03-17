@@ -421,7 +421,7 @@ const embed = {
     },
 	{
       "name": ".excel",
-      "value": "similar to `.ato` command, but more "Excel-friendly." "
+      "value": "similar to `.ato` command, but more *Excel-friendly.* "
     },
 	   {
       "name": ".hi",
@@ -806,7 +806,7 @@ client.on('message', async message =>{
 				.addFields(
 				placements.map(p => ({
 					name: `${p.teamName}`,
-					value: `${p.TotalPoints}**`
+					value: `${p.TotalPoints}`
 									})
 							)
 				
