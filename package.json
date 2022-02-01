@@ -1,7 +1,7 @@
 {
-  "name": "betatestjs",
+  "name": "Apex-Match-API-for-Discord",
   "version": "1.0.0",
-  "description": "testing bot",
+  "description": "sends match results to a Discord channel",
   "main": "index.js",
   "scripts": {
     "test": "yawa"
