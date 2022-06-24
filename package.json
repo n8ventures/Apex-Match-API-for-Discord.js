@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "sends match results to a Discord channel",
   "main": "index.js",
-  "scripts": {
-    "test": "yawa"
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.3",
     "moment-timezone": "^0.5.34",
     "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0"
   }
 }
